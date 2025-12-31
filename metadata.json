@@ -1,0 +1,7 @@
+{
+  "name": "PunchCard Digitizer",
+  "description": "An AI-powered tool to convert handwritten punch card records into structured spreadsheets with a human-in-the-loop correction system.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
