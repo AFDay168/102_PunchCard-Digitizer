@@ -444,14 +444,14 @@ export default function App() {
                       <input 
                         type="range" 
                         min="1" 
-                        max="5" 
+                        max="8" 
                         step="0.1" 
                         value={zoomLevel}
                         onChange={(e) => setZoomLevel(parseFloat(e.target.value))}
                         className="flex-1 h-2 bg-slate-100 rounded-lg appearance-none cursor-pointer accent-indigo-600"
                       />
                       <button 
-                        onClick={() => setZoomLevel(prev => Math.min(5, prev + 0.5))}
+                        onClick={() => setZoomLevel(prev => Math.min(8, prev + 0.5))}
                         className="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-600 hover:bg-slate-50"
                       >
                         +
